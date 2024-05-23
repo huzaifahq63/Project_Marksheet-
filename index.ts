@@ -31,7 +31,7 @@ console.log('totalmarks: ', totalmarks);
 const ObtainedMarks = marks.English + marks.Urdu + marks.Islamiat + marks.Maths + marks.Biology + marks.Chemistry + marks.Physics
 console.log('ObtainedMarks: ', ObtainedMarks);
 
-const Percentage = ObtainedMarks / totalmarks*100;
+const Percentage = ObtainedMarks / totalmarks * 100;
 console.log('Percentage: ', Percentage);
 
 if (Percentage >= 80){
